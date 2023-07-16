@@ -23,7 +23,9 @@ Este projeto consiste em uma Web API, desenvolvida seguindo o paragima de Minima
 - 6: Salve o arquivo, abra o console de Gerenciador de Pacotes do Visual Studio e execute os seguintes comandos:
   - ```update-database -context NetDevPackAppDbContext``` e ```update-database -context MinimalContextDb``` .
 - 7: Verifique se o banco de dados foi criado no SQL Server, conforme a imagem abaixo:
-  - [Imagem SQL Server]
+
+   ![Imagem SQL Server](images/sqlserver.PNG)
+    
 - 8: Execute o projeto, ele abrirá no navegador a API do Swagger conforme a imagem abaixo:
   - [Imagem do Swagger]
 - 9: Por ter Autenticação, primeiramente é preciso registrar um usuário para ter acesso aos endpoints. Apenas o primeiro endpoint  GET que possui acesso livre, listando todos os automóveis disponíveis no banco de dados, conforme a imagem abaixo:
