@@ -85,3 +85,6 @@ Este projeto consiste em uma Web API, desenvolvida seguindo o paragima de Minima
 - Minimal APIs.
 - CRUD.
 - Autenticaçao de usuários com Tokens. 
+
+## Extra:
+- API implementada em squads, utilizando padrão MVC: [M2P2-DEVinSales](https://github.com/DEVin-Softplan/M2P2-DEVinSales)
