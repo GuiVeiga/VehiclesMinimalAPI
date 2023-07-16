@@ -27,9 +27,13 @@ Este projeto consiste em uma Web API, desenvolvida seguindo o paragima de Minima
    ![Imagem SQL Server](images/sqlserver.PNG)
     
 - 8: Execute o projeto, ele abrirá no navegador a API do Swagger conforme a imagem abaixo:
-  - [Imagem do Swagger]
+  
+   ![Imagem do Swagger](images/swagger.PNG)
+    
 - 9: Por ter Autenticação, primeiramente é preciso registrar um usuário para ter acesso aos endpoints. Apenas o primeiro endpoint  GET que possui acesso livre, listando todos os automóveis disponíveis no banco de dados, conforme a imagem abaixo:
-  - [Imagem imagem do endpoint get]
+  
+   ![Imagem imagem do endpoint get](images/getautomovel.PNG)
+    
 - 10: Vá até o endpoint POST de Cadastro e registre o seguinte usuário Admin. Não se esqueça de que esse modelo de usuário possui um padrão de e-mail e senhas, necessitando ter pelo menos uma letra em maiúsculo, um numero e um caractere especial:
   - ```
     "email": "admin@admin.com",
@@ -41,11 +45,16 @@ Este projeto consiste em uma Web API, desenvolvida seguindo o paragima de Minima
     "email": "admin@admin.com",
     "password": "Admin123@",
     ```
-- 12: Como response, será retornado um token conforme a imagem abaixo. Copie este token e vá para o início da pagina para fazer a autenticação:
-  - [Imagem do Token]
-  - [Imagem do Authorize]
+- 12: Como response, será retornado um token conforme a imagem abaixo. Copie este token e vá para o início da pagina, no canto superior direito, para fazer a autenticação:
+  
+   ![Imagem do Token](images/logintoken.PNG)
+    
+   ![Imagem do Authorize](images/authorize.PNG)
+    
 - 13: Conforme informado na página, insira no campo a palavra Bearer seguida pelo token copiado do item anterior:
-  - [Imagem autenticação]
+  
+   ![Imagem autenticação](images/BearerToken.PNG)
+    
 - 14: Feita a autenticação, agora é possivel ter acesso aos demais Endpoints!
 
 ## Endpoints :man_technologist::
